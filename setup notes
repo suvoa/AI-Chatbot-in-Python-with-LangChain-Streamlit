@@ -1,0 +1,10 @@
+# Setup Notes
+
+## API Keys and Configuration
+
+This application requires an OpenAI API key to function. Follow these steps to set up your environment:
+
+1. Create an account on [OpenAI](https://platform.openai.com/) if you don't already have one
+2. Generate an API key from your OpenAI dashboard
+3. Create a file named `.env` in the root directory of this project
+4. Add your API key to the `.env` file in this format:
