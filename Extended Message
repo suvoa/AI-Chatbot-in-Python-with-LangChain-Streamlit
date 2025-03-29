@@ -1,0 +1,10 @@
+Added core project files:
+- app.py: Main Streamlit application with GPT-4 integration
+- .env: Environment configuration template for API keys
+- README.md: Project documentation and setup instructions
+- requirements.txt: List of dependencies needed to run the application
+- SETUP_NOTES.md: Important notes about API keys and configuration
+
+This chatbot application uses Streamlit for the user interface, LangChain for conversation memory management, and OpenAI's GPT-4 for generating responses. The app features a clean interface with conversation history and context awareness.
+
+NOTE: Users must create their own .env file with their OpenAI API key (OPENAI_API_KEY=your_key_here) for the application to function properly.
